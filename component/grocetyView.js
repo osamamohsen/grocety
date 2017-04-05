@@ -56,38 +56,30 @@ export default class grocety extends Component {
 
   render() {
     return (
-      <WebView
-        source={{uri: 'http://magento.shiftdev.net/grocety/'}}
-        style={{marginTop: 20}}
-        renderError = {this.webviewRenderError}
-        automaticallyAdjustContentInsets={false}
-        startInLoadingState={true}
-      />
+          <WebView
+            source={{uri: 'http://magento.shiftdev.net/grocety/'}}
+            renderError = {this.webviewRenderError}
+            automaticallyAdjustContentInsets={false}
+            startInLoadingState={true}
+          />
     );
   }
 }
 
-//          scalesPageToFit={true}
-//         domStorageEnabled={true}
-//         onShouldStartLoadWithRequest={this.onShouldStartLoadWithRequest}
-//         scalesPageToFit={true}
-//         scrollEnabled={true}
+        //  scalesPageToFit={true}
+        // domStorageEnabled={true}
+        // onShouldStartLoadWithRequest={this.onShouldStartLoadWithRequest}
+        // scalesPageToFit={true}
+        // scrollEnabled={true}
 
 const styles = StyleSheet.create({
   noConnection: {
-    // flex: 1,
     textAlign: 'center',
     alignItems: 'center',
     justifyContent: 'center',
     fontSize: 22,
-    // marginTop: 70,
     fontFamily: 'string',
     color: 'black',
-    // fontStyle: 'italic',
-    // textShadowColor: '#252525',
-    // textShadowOffset: {width: 2, height: 2},
-    // textShadowRadius: 15,
-    // marginBottom: 50,
   },
   container: {
     flex: 1,
