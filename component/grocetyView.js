@@ -14,6 +14,8 @@ import {
   TouchableHighlight,
 } from 'react-native';
 
+import SplashScreen from 'react-native-splash-screen';
+
 export default class grocety extends Component {
 
   constructor(props){
@@ -21,6 +23,13 @@ export default class grocety extends Component {
     console.disableYellowBox = true;
   	this.state = {};
   }
+  
+  componentDidMount() {
+        // do anything while splash screen keeps, use await to wait for an async task.
+      SplashScreen.hide();
+  }
+
+  onNavigationStateChange = (navState) => { this.setState({ backButtonEnabled: navState.canGoBack, forwardButtonEnabled: navState.canGoForward, url: navState.url, status: navState.title, loading: navState.loading, scalesPageToFit: true }); };
 
   webviewRenderError =  (errorDomain, errorCode, errorDesc) => {
 
@@ -56,6 +65,12 @@ export default class grocety extends Component {
     );
   }
 }
+
+// scalesPageToFit={true}
+//         domStorageEnabled={true}
+//         onShouldStartLoadWithRequest={this.onShouldStartLoadWithRequest}
+//         scalesPageToFit={true}
+//         scrollEnabled={true}
 
 const styles = StyleSheet.create({
   noConnection: {
