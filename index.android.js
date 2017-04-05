@@ -15,9 +15,8 @@ import {
 
 import GrocetyView from './component/grocetyView';
 
-import SplashScreen from 'react-native-splash-screen';
-
 export default class grocety extends Component {
+
 
 render() {
     return (<GrocetyView />);
