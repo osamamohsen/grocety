@@ -24,10 +24,11 @@ export default class grocety extends Component {
   	this.state = {};
   }
   
-  componentDidMount() {
+    componentDidMount() {
         // do anything while splash screen keeps, use await to wait for an async task.
       SplashScreen.hide();
   }
+
 
   onNavigationStateChange = (navState) => { this.setState({ backButtonEnabled: navState.canGoBack, forwardButtonEnabled: navState.canGoForward, url: navState.url, status: navState.title, loading: navState.loading, scalesPageToFit: true }); };
 
@@ -66,7 +67,7 @@ export default class grocety extends Component {
   }
 }
 
-// scalesPageToFit={true}
+//          scalesPageToFit={true}
 //         domStorageEnabled={true}
 //         onShouldStartLoadWithRequest={this.onShouldStartLoadWithRequest}
 //         scalesPageToFit={true}
