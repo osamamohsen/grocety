@@ -15,7 +15,9 @@ import GrocetyView from './component/grocetyView';
 
 export default class grocety extends Component {
   render() {
-    return (<GrocetyView />);
+    return (
+        <GrocetyView />
+    );
   }
 }
 
