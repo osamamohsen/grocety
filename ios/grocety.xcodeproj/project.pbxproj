@@ -557,7 +557,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = 6KMWZBH8KB;
+						DevelopmentTeam = ATXHUXELE6;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -956,7 +956,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = 6KMWZBH8KB;
+				DEVELOPMENT_TEAM = ATXHUXELE6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -972,7 +972,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jeemee.omar.grocetyweb;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeemee.omar.grocetywebview;
 				PRODUCT_NAME = grocety;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -985,7 +985,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6KMWZBH8KB;
+				DEVELOPMENT_TEAM = ATXHUXELE6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -1001,7 +1001,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jeemee.omar.grocetyweb;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeemee.omar.grocetywebview;
 				PRODUCT_NAME = grocety;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
