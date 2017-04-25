@@ -78,7 +78,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     fontSize: 22,
-    fontFamily: 'string',
+    // fontFamily: 'string',
     color: 'black',
   },
   container: {
